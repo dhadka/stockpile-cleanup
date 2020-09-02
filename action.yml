@@ -1,0 +1,9 @@
+name: 'stockpile-cleanup'
+description: ''
+inputs:
+  path:
+    description: 'The storage account container to cleanup'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
